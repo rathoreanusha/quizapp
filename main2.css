@@ -6,13 +6,14 @@ body
 
 
 .login-block {
-    width: 400px;
+    width: 1000px;
     padding: 18px;
     background: #fff;
     border-radius: 20px;
     border-top: 10px solid #ff0000;
     margin: 140px auto;
 }
+
 
 .login-block h1 {
     text-align: center;
@@ -36,42 +37,22 @@ body
     outline: none;
 }
 
-.login-block input#username {
+.login-block input#que {
     background: #fff 15px top no-repeat;
     background-size: 16px 70px;
 }
 
-.login-block input#username:focus {
+.login-block input#que:focus {
     background: #fff 15px bottom no-repeat;
     background-size: 16px 70px;
 }
 
-.login-block input#password {
+.login-block input#opt {
     background: #fff 15px top no-repeat;
     background-size: 16px 70px;
 }
 
-.login-block input#password:focus {
-    background: #fff 15px bottom no-repeat;
-    background-size: 16px 70px;
-}
-
-.login-block input#email {
-    background: #fff 15px top no-repeat;
-    background-size: 16px 70px;
-}
-
-.login-block input#email:focus {
-    background: #fff 15px bottom no-repeat;
-    background-size: 16px 70px;
-}
-
-.login-block input#branch {
-    background: #fff 15px top no-repeat;
-    background-size: 16px 70px;
-}
-
-.login-block input#branch:focus {
+.login-block input#opt:focus {
     background: #fff 15px bottom no-repeat;
     background-size: 16px 70px;
 }
@@ -81,7 +62,7 @@ body
 }
 
 .login-block button {
-    width: 30%;
+    width: 20%;
     height: 40px;
     background: #ff0000;
     box-sizing: border-box;
@@ -100,57 +81,12 @@ body
     background: #ff7b80;
 }
 
-.login-block a{
-   color: #ff7b88;
- } 
-
-.login-block a:hover {
-   color: #ff0000;
-   
-}
-
+.dropdown-menu input {
+    width: 15%;
+ }
 
 .navbar-brand
 {
    font-size: 200%; 
    font-weight: bold;
 }
-
-.nav-link
-{
-   font-size: 100%;
-}
-
-.sidenav {
-    height: 100%;
-    width: 180px;
-    position: fixed;
-    z-index: 0;
-    top: 0;
-    left: 0;
-    background-color: #f0f0f0;
-    overflow-x: hidden;
-    padding-top: 100px;
-}
-
-.sidenav a {
-    padding: 3px 3px 3px 32px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #787878;
-    display: block;
-}
-
-.sidenav a:hover {
-    color: #000000;
-}
-
-
-
-
-
-
-
-
-
-
